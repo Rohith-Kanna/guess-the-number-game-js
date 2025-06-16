@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random No Guess</title>
+  </head>
+  <body> <center>
+    <h1>Guess the random Number(1-10)</h1>
+    <input
+      placeholder="Enter your Guess"
+      type="number"
+      id="guess"
+      min="1"
+      max="10"
+    />
+    <button onclick="check()">Check</button>
+    <button onclick="reset()">Reset</button>
+    <p id="res">You are Right/Wrong</p>
+    <p id="rand">Random</p>
+    <p id="score">Score: 10</p> 
+  
+    <script src="script.js"></script></center>
+  </body>
+</html>
